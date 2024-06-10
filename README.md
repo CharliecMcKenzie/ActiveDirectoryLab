@@ -1,6 +1,6 @@
 <h1>Active Directory Home Lab</h1>
-
-
+<p align="center">
+<img src="https://i.imgur.com/rm8a6tf.png" height="80%" width="80%" alt="Active Directory Steps"/>
 
 <h2>Description</h2>
 This project showcases the creation of a home lab environment using Active Directory, providing hands-on experience with this critical technology. Setting up a home lab offers a unique opportunity to gain practical skills and a deep understanding of Active Directory's setup and functionality. Mastering these foundational aspects is essential for those aiming to secure and manage Active Directory environments effectively.
@@ -27,8 +27,10 @@ Assign two network adapters to this virtual machine: one for connecting to the i
 <h3>Install Windows Server 2019</h3>
 <p align="center">
 Install Windows Server 2019 on the domain controller virtual machine.<br />
-<p align="center">
-Configure IP addressing for the internal network. The external network will automatically receive IP addresses from your home network/router.<br />
+Configure IP addressing for the internal network.<br />
+<br />
+<img src="https://i.imgur.com/hUl3t0U.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
 
 <h3>Setup and Configure Active Directory</h3>
 <p align="center">
@@ -43,9 +45,10 @@ Configure DHCP on the domain controller to enable automatic IP address assignmen
 <h3>Create Users with PowerShell</h3>
 <p align="center">
 Run a PowerShell script on the domain controller to automatically create 1,000 users in Active Directory.<br />
-<p align="center">
-Explain the script to provide insight into PowerShell's capabilities and its potential uses.<br />
-    
+<br />
+<img src="https://i.imgur.com/9S11OKc.png" height="80%" width="80%" alt="Active Directory Steps"/>   
+<br />
+
 <h3>Create the Windows 10 Client Virtual Machine</h3>
 <p align="center">
 Create another virtual machine and install Windows 10 on it.<br />
@@ -55,7 +58,10 @@ Connect this virtual machine to the private VirtualBox network.<br />
 Name the machine "client1" and join it to the domain.<br />
 <p align="center">
 Log into the client machine using one of the domain accounts.<br />
-   
+<br />
+<img src="https://i.imgur.com/alWgF89.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
 This concludes the tutorial, demonstrating the process of setting up a home lab with Active Directory, creating a domain controller, and adding a client machine to the domain.
 
 
