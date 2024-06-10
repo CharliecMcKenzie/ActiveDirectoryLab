@@ -3,7 +3,7 @@
 <img src="https://i.imgur.com/rm8a6tf.png" height="80%" width="80%" alt="Active Directory Steps"/>
 
 <h2>Description</h2>
-This project showcases the creation of a home lab environment using Active Directory, providing hands-on experience with this critical technology. Setting up a home lab offers a unique opportunity to gain practical skills and a deep understanding of Active Directory's setup and functionality. Mastering these foundational aspects is essential for those aiming to secure and manage Active Directory environments effectively.
+This project showcases the creation of a home lab environment using Active Directory, providing hands-on experience with this critical technology. 
 <br />
 
 
