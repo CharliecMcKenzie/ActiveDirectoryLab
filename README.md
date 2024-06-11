@@ -90,7 +90,7 @@ Install windows 10<br />
 <img src="https://i.imgur.com/Uw1Hewn.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
-Name the machine "client1" and join it to the domain.<br />
+Name the machine "CLIENT1" and join it to the domain.<br />
 <br />
 <img src="https://i.imgur.com/8bsXSnY.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <img src="https://i.imgur.com/CnY7Rlv.png" height="80%" width="80%" alt="Active Directory Steps"/>
@@ -101,9 +101,11 @@ Log into the client machine using one of the domain accounts.<br />
 <br />
 <img src="https://i.imgur.com/alWgF89.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <img src="https://i.imgur.com/L4t0JBa.png" height="80%" width="80%" alt="Active Directory Steps"/>
-
+<img src="https://i.imgur.com/WwjbvCS.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
-This concludes the tutorial, demonstrating the process of setting up a home lab with Active Directory, creating a domain controller, and adding a client machine to the domain.
+<br />
+<p align="left">
+This concludes the tutorial, demonstrating the process of setting up a home lab with Active Directory, creating a domain controller, and adding a client machine to the domain. Setting up a home lab offered a unique opportunity to gain practical skills and a deep understanding of Active Directory's setup and functionality. Mastering these foundational aspects is essential for aiming to secure and manage Active Directory environments effectively.
 
 
 
