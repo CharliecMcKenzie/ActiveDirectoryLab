@@ -21,32 +21,59 @@ This project showcases the creation of a home lab environment using Active Direc
 <h3>Create the Domain Controller Virtual Machine</h3>  
 <p align="center">
 Create the first virtual machine, which will act as the domain controller housing Active Directory.<br />
+<br />
+<img src="https://i.imgur.com/y0W7KBn.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <p align="center">
 Assign two network adapters to this virtual machine: one for connecting to the internet and another for the private network within VirtualBox.<br />
-
+<br />
+<img src="https://i.imgur.com/tBcFTnf.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<img src="https://i.imgur.com/EHMGaxq.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <h3>Install Windows Server 2019</h3>
 <p align="center">
 Install Windows Server 2019 on the domain controller virtual machine.<br />
+<br />
+<img src="https://i.imgur.com/xpBriyk.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
 Configure IP addressing for the internal network.<br />
 <br />
-<img src="https://i.imgur.com/hUl3t0U.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<img src="https://i.imgur.com/D1USxjC.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 
 <h3>Setup and Configure Active Directory</h3>
 <p align="center">
-Name the server and install Active Directory.<br />
+Install Active Directory.<br />
+<br />
+<img src="https://i.imgur.com/4vyc3lS.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<img src="https://i.imgur.com/auFbG1x.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
 <p align="center">
-Create a new domain and configure routing so that clients on the private network can access the internet through the domain controller.<br />
+Adding remote access <br />
+<br />
+<img src="https://i.imgur.com/kHXsA7o.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
+Configure routing so that clients on the private network can access the internet through the domain controller using NAT.<br />
+<br />
+<img src="https://i.imgur.com/odjpSEF.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
 
 <h3>Setup DHCP on the Domain Controller</h3>
 <p align="center">
+Adding DHCP<br />
+<br />
+<img src="https://i.imgur.com/8yJPLIK.png" height="80%" width="80%" alt="Active Directory Steps"/>  
+<br />
+<br />
 Configure DHCP on the domain controller to enable automatic IP address assignment for the Windows 10 client machine.<br />
     
 <h3>Create Users with PowerShell</h3>
 <p align="center">
-Run a PowerShell script on the domain controller to automatically create 1,000 users in Active Directory.<br />
+Running a PowerShell script on the domain controller to automatically create 1,000 users in Active Directory.<br />
 <br />
-<img src="https://i.imgur.com/9S11OKc.png" height="80%" width="80%" alt="Active Directory Steps"/>   
+<img src="https://i.imgur.com/06V9p24.png" height="80%" width="80%" alt="Active Directory Steps"/>   
+<img src="https://i.imgur.com/QiMYFVD.png" height="80%" width="80%" alt="Active Directory Steps"/>   
 <br />
 
 <h3>Create the Windows 10 Client Virtual Machine</h3>
