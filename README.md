@@ -28,6 +28,7 @@ Assign two network adapters to this virtual machine: one for connecting to the i
 <br />
 <img src="https://i.imgur.com/tBcFTnf.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <img src="https://i.imgur.com/EHMGaxq.png" height="80%" width="80%" alt="Active Directory Steps"/>
+
 <h3>Install Windows Server 2019</h3>
 <p align="center">
 Install Windows Server 2019 on the domain controller virtual machine.<br />
@@ -38,7 +39,6 @@ Install Windows Server 2019 on the domain controller virtual machine.<br />
 Configure IP addressing for the internal network.<br />
 <br />
 <img src="https://i.imgur.com/D1USxjC.png" height="80%" width="80%" alt="Active Directory Steps"/>
-<br />
 
 <h3>Setup and Configure Active Directory</h3>
 <p align="center">
@@ -48,7 +48,6 @@ Install Active Directory.<br />
 <img src="https://i.imgur.com/auFbG1x.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
-<p align="center">
 Adding remote access <br />
 <br />
 <img src="https://i.imgur.com/kHXsA7o.png" height="80%" width="80%" alt="Active Directory Steps"/>
@@ -57,7 +56,6 @@ Adding remote access <br />
 Configure routing so that clients on the private network can access the internet through the domain controller using NAT.<br />
 <br />
 <img src="https://i.imgur.com/odjpSEF.png" height="80%" width="80%" alt="Active Directory Steps"/>
-<br />
 
 <h3>Setup DHCP on the Domain Controller</h3>
 <p align="center">
@@ -66,28 +64,44 @@ Adding DHCP<br />
 <img src="https://i.imgur.com/8yJPLIK.png" height="80%" width="80%" alt="Active Directory Steps"/>  
 <br />
 <br />
-Configure DHCP on the domain controller to enable automatic IP address assignment for the Windows 10 client machine.<br />
-    
+Configure DHCP scope to enable automatic IP address assignment for the Windows 10 client machine.<br />
+<br />
+<img src="https://i.imgur.com/FkoG6Ea.png" height="80%" width="80%" alt="Active Directory Steps"/> 
+<img src="https://i.imgur.com/x1KnGPQ.png" height="80%" width="80%" alt="Active Directory Steps"/> 
+<img src="https://i.imgur.com/vAbauTT.png" height="80%" width="80%" alt="Active Directory Steps"/> 
+  
 <h3>Create Users with PowerShell</h3>
 <p align="center">
 Running a PowerShell script on the domain controller to automatically create 1,000 users in Active Directory.<br />
 <br />
 <img src="https://i.imgur.com/06V9p24.png" height="80%" width="80%" alt="Active Directory Steps"/>   
 <img src="https://i.imgur.com/QiMYFVD.png" height="80%" width="80%" alt="Active Directory Steps"/>   
-<br />
 
 <h3>Create the Windows 10 Client Virtual Machine</h3>
 <p align="center">
-Create another virtual machine and install Windows 10 on it.<br />
-<p align="center">
-Connect this virtual machine to the private VirtualBox network.<br />
-<p align="center">
+Create another virtual machine and assign the network adapter to internal.<br />
+<br />
+<img src="https://i.imgur.com/PgBHddn.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<img src="https://i.imgur.com/7869JA7.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
+Install windows 10<br />
+<br />
+<img src="https://i.imgur.com/Uw1Hewn.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
 Name the machine "client1" and join it to the domain.<br />
-<p align="center">
+<br />
+<img src="https://i.imgur.com/8bsXSnY.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<img src="https://i.imgur.com/CnY7Rlv.png" height="80%" width="80%" alt="Active Directory Steps"/>
+<br />
+<br />
+<br />
 Log into the client machine using one of the domain accounts.<br />
 <br />
 <img src="https://i.imgur.com/alWgF89.png" height="80%" width="80%" alt="Active Directory Steps"/>
-<br />
+<img src="https://i.imgur.com/L4t0JBa.png" height="80%" width="80%" alt="Active Directory Steps"/>
+
 <br />
 This concludes the tutorial, demonstrating the process of setting up a home lab with Active Directory, creating a domain controller, and adding a client machine to the domain.
 
