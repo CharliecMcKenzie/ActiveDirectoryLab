@@ -103,7 +103,7 @@ Log into the client machine using one of the domain accounts.<br />
 <img src="https://i.imgur.com/L4t0JBa.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <img src="https://i.imgur.com/WwjbvCS.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
-<br />
+<h2>Conclusion</h2>
 <p align="left">
 This concludes the tutorial, demonstrating the process of setting up a home lab with Active Directory, creating a domain controller, and adding a client machine to the domain. Setting up a home lab offered a unique opportunity to gain practical skills and a deep understanding of Active Directory's setup and functionality. Mastering these foundational aspects is essential for aiming to secure and manage Active Directory environments effectively.
 
